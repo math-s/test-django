@@ -1,3 +1,9 @@
 from django.shortcuts import render
+from rest_framework.views import APIView, Response
 
-# Create your views here.
+class GetInfoView(APIView):
+    def get(self, request):
+        """
+        your answer here
+        """
+        return Response()

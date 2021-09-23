@@ -1,3 +1,6 @@
 from django.contrib import admin
+from checkout.models import Sale, Item, Product
 
-# Register your models here.
+admin.site.register(Sale)
+admin.site.register(Item)
+admin.site.register(Product)
